@@ -16,11 +16,11 @@ const calculateTemp = () => {
      let result ;
      if(valueTemp == 'cel'){
           result = celTofeh(numberTemp);
-          document.getElementById('resultContainer').innerHTML =`= ${result}Fahrenheit`;
+          document.getElementById('resultContainer').innerHTML =`= ${result}°Fahrenheit`;
      }else
      {
           result = fehTocel(numberTemp);
-          document.getElementById('resultContainer').innerHTML =`= ${result}Celcious`;
+          document.getElementById('resultContainer').innerHTML =`= ${result}°Celcius`;
 
      }
 }

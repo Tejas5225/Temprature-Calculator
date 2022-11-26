@@ -11,11 +11,13 @@ body {
   background-color: #ffffff;
   display: grid;
   place-items:center;
+  background-image: url(../img/wallpaperflare.com_wallpaper.jpg);
  
 }
 form {
      padding: 5%;
-     background-color: rgb(43, 208, 220);
+     background-color: rgb(103, 228, 230);
+     
 }
 
 .container {
@@ -26,6 +28,7 @@ form {
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
+  
 }
 
 .cf {
@@ -53,3 +56,4 @@ input:focus {
      font-weight: 500;
      font-family: fantasy;
  }
+ 
